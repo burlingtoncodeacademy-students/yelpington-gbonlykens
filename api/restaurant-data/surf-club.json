@@ -1,0 +1,13 @@
+{
+    "id": "the-surf-club-restaurant",
+    "name": "The Surf Club",
+    "address": "9011 Collins Avenue, Surfside, FL 33154",
+    "phone number": "305-768-9440",
+    "website": "www.surfclubrestaurant.com",
+    "hours": "6:00pm - 10:00pm",
+    "house cocktail": "Volcano de mi Tierra",
+    "house entree": "Prime Beef Short Rib Wellington",
+    "notes": ["An oceanfront destination bringing a new era of glamour elevated with chic Italian cuisine."],
+    "latitude": "25.87749",
+    "Longitute": "-80.12150"
+}

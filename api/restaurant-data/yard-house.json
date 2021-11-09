@@ -1,0 +1,17 @@
+{
+    "id": "yard-house",
+    "name": "Yard House",
+    "address": "1681 Lenox Avenue, Miami Beach, FL 33139",
+    "phone number": "305-535-5660",
+    "website": "www.yardhouse.com",
+    "hours": "11:00am - 11:30pm",
+    "house cocktail": "Pink Dragon Margarita",
+    "house entree": "Maui Pineapple Chicken",
+    "notes": [
+        "Yard House Happy Hour is held every Monday through Friday from 3:00pm - 7:30pm and Sunday through Wednesday from 10:00 to close.", 
+        "Happy Hour specials include half-priced select appetizers and pizzas, $2 off all draft beer, wine, spirits, and cocktails.", 
+        "Yard House aims to make an enjoyable experience through great music, great seaside atmosphere, and a diverse menu stemmed from California roots."
+    ],
+    "latitude": "",
+    "Longitute": ""
+}

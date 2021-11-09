@@ -1,0 +1,15 @@
+{
+    "id": "bonefish-grill",
+    "name": "Bonefish Grill",
+    "address": "18713 Biscayne Blvd, Aventura, FL 33180",
+    "phone number": "305-682-2340",
+    "website": "www.bonefishgrill.com",
+    "hours": "11:00am - 11:00pm",
+    "house cocktail": "Bonefish Pomegranate Martini",
+    "house entree": "Goat Cheese Grilled Basil Chicken",
+    "notes": [
+        "Features a 'From the Sea', 'From the Land', and 'From the Dock' options of entrees.", "'Perfect Pairing' choices include: Mahi-Mahi & Shrimp, Sirloin & Crab Cake, Filet & Lobster Tail, Sirloin & Shrimp, and Chicken & Shrimp."
+    ],
+    "latitude": "25.95133",
+    "Longitute": "-80.14508"
+}

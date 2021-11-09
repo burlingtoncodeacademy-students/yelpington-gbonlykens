@@ -1,0 +1,15 @@
+{
+    "id": "le-zoo",
+    "name": "Le Zoo",
+    "address": "9700 Collins Avenue, Miami, FL 33154",
+    "phone number": "305-602-9663",
+    "website": "www.lezoorestaurant.com",
+    "hours": "11:30am - 10:00pm",
+    "house cocktail": "Trans-Atlantic Old Fashioned",
+    "house entree": "Filet Mignon Au Poivre",
+    "notes": [
+        "Focuses on capturing the common ground between French elegance and the effortless South Florida sophistication.", "Le Zoo is an energetic celebration of French Mediterranean cooking."
+    ],
+    "latitude": "25.88839",
+    "Longitute": "-80.12461"
+}

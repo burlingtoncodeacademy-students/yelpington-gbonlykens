@@ -1,0 +1,19 @@
+{
+    "id": "atlantikos",
+    "name": "Atlantikos",
+    "address": "9703 Collins Avenue, Bal Harbour-Miami, FL 33154",
+    "phone number": "305-993-3300",
+    "website": "www.balharbourflorida.com",
+    "hours": [
+        "Breakfast: 7:00am - 11:30am", 
+        "Lunch: 12:00pm - 3:30pm", 
+        "Dinner: 6:00pm - 10:30pm"
+    ],
+    "house cocktail": "Pineapple Mojito",
+    "house entree": "Slow Cooked Beef Short Rib",
+    "notes": [
+        "Offers seafood entrees from both the Mediterranean and Atlantic Coasts.", "Features a 'Raw Bar' with choices of oysters, shrimp cocktail, Alaskan king crab legs, whole belly clams, and Maine lobster."
+    ],
+    "latitude": "25.88901",
+    "Longitute": "-80.12287"
+}

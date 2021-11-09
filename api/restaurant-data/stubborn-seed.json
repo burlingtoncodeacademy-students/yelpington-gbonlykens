@@ -1,0 +1,18 @@
+{
+    "id": "stubborn-seed",
+    "name": "Stubborn Seed",
+    "address": "101 Washington Avenue, Miami Beach, FL 33139",
+    "phone number": "786-322-5211",
+    "website": "www.stubbornseed.com",
+    "hours": [
+        "Sunday through Thursday: 6:00pm - 10:00pm", 
+        "Friday and Saturday: 6:00pm - 11:00pm"
+    ],
+    "house cocktail": ["Egyptian Sting", "Tears of my Enemies"],
+    "house entree": "Truffle Chicken",
+    "notes": [
+        "Chef Ford aims to unearth cravings of the palate while constructing a reward in each bite."
+    ],
+    "latitude": "25.77026",
+    "Longitute": "-80.13492"
+}

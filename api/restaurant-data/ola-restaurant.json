@@ -1,0 +1,16 @@
+{
+    "id": "ola-restaurant",
+    "name": "OLA Restaurant",
+    "address": "2360 Collins Avenue, Miami Beach, FL 33139",
+    "phone number": "305-695-9125",
+    "website": "www.olamiami.com",
+    "hours": "11:00 am - 3:30pm; 6:00pm - 10:00pm",
+    "house cocktail": "Tropical Storm",
+    "house entree": "Slow Roasted Cuban Pork",
+    "notes": [
+        "Chef Carlos Castro has brought the essential flavors of Latin America to OLA Restaurant in Miami Beach.", 
+        "Caribbean flavors are featured in dishes such as the Beef Tenderloin Currasco and Florida Sweet Corn Empanda."
+    ],
+    "latitude": "25.80214",
+    "Longitute": "-80.12762"
+}
