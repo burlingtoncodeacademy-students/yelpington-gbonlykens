@@ -1,8 +1,15 @@
-// App.js is the Landing Page for Front-End Portion
+// React imports
+import React from 'react';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+// import app styling
 import './App.css';
 
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
-import Homepage 
+// restaurant imports
+import './components/restaurants/Atlantikos';
+
+
+
+
 
 
 

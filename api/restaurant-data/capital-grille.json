@@ -2,7 +2,7 @@
     "id": "the-capital-grille",
     "name": "The Capital Grille",
     "address": "444 Brickell Avenue, Miami, FL 33131",
-    "phone number": "305-374-4500",
+    "phone": "305-374-4500",
     "website": "www.thecapitalgrille.com",
     "hours": [
         "Sunday: 4:00pm - 9:00pm", 
@@ -10,8 +10,8 @@
         "Friday: 11:30am - 10:00pm", 
         "Saturday: 4:00pm - 10:00pm"
     ],
-    "house cocktail": "The Bohemian",
-    "house entree": "Seared Citrus Glazed Salmon",
+    "cocktail": "The Bohemian",
+    "entree": "Seared Citrus Glazed Salmon",
     "notes": [
         "Offers a 'Thanksgiving at Home' option, where customers can order a variety of holiday side dishes, including: brioche stuffing, housemade gravy, mashed potatoes, sweet potatoes with hot honey, French green beans, cranberry sauce, and seeded rolls."
     ],

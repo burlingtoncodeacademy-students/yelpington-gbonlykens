@@ -2,15 +2,15 @@
     "id": "ferraros-kitchen",
     "name": "Ferraro's Kitchen",
     "address": "1099 NE 79th Street, Miami, FL 33138",
-    "phone number": "786-534-2136",
+    "phone": "786-534-2136",
     "website": "www.ferraroskitchen.com",
     "hours": [
         "Monday: 5:00pm - 10:00pm", 
         "Tuesday through Saturday: 12:00pm - 10:00pm", 
         "Sunday: 12:00pm - 9:30pm"
     ],
-    "house cocktail": "Abruzzo Wine",
-    "house entree": "Ravioli Aragosta e Tartufo Fresco: Ravioli stuffed with Maine lobster claw and topped with a fresh truffle butter.",
+    "cocktail": "Abruzzo Wine",
+    "entree": "Ravioli Aragosta e Tartufo Fresco: Ravioli stuffed with Maine lobster claw and topped with a fresh truffle butter.",
     "notes": [
         "Received a 'The Best Winelist in Town' award from Wine Spectator in 2021.", "Meet the Chef: Igor Ferraro. A native of Venice, Italy, inspired by Italian culture to bring the heart of Italian cuisine into his diverse menu."
     ],

@@ -2,11 +2,11 @@
     "id": "santorini-by-georgios",
     "name": "Santorini by Georgios",
     "address": "101 Ocean Drive, Miami Beach, FL 33139",
-    "phone number": "305-672-6624",
+    "phone": "305-672-6624",
     "website": "www.santorinibygeorgios.com",
     "hours": "7:00am - 11:00pm",
-    "house cocktail": "The Rum Runner",
-    "house entree": "Lobster Poseidon",
+    "cocktail": "The Rum Runner",
+    "entree": "Lobster Poseidon",
     "notes": [
         "A perfect Greek feast.",
         "A taste of Greece in the heart of South Beach"

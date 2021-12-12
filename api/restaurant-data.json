@@ -1,0 +1,189 @@
+[
+    {
+        "id": "atlantikos",
+        "name": "Atlantikos",
+        "address": "9703 Collins Avenue, Bal Harbour-Miami, FL 33154",
+        "phone": "305-993-3300",
+        "website": "www.balharbourflorida.com",
+        "hours": [
+            "Breakfast: 7:00am - 11:30am", 
+            "Lunch: 12:00pm - 3:30pm", 
+            "Dinner: 6:00pm - 10:30pm"
+        ],
+        "cocktail": "Pineapple Mojito",
+        "entree": "Slow Cooked Beef Short Rib",
+        "notes": [
+            "Offers seafood entrees from both the Mediterranean and Atlantic Coasts.", "Features a 'Raw Bar' with choices of oysters, shrimp cocktail, Alaskan king crab legs, whole belly clams, and Maine lobster."
+        ],
+        "latitude": "25.88901",
+        "Longitute": "-80.12287"
+    },
+    {
+        "id": "bonefish-grill",
+        "name": "Bonefish Grill",
+        "address": "18713 Biscayne Blvd, Aventura, FL 33180",
+        "phone": "305-682-2340",
+        "website": "www.bonefishgrill.com",
+        "hours": "11:00am - 11:00pm",
+        "cocktail": "Bonefish Pomegranate Martini",
+        "entree": "Goat Cheese Grilled Basil Chicken",
+        "notes": [
+            "Features a 'From the Sea', 'From the Land', and 'From the Dock' options of entrees.", "'Perfect Pairing' choices include: Mahi-Mahi & Shrimp, Sirloin & Crab Cake, Filet & Lobster Tail, Sirloin & Shrimp, and Chicken & Shrimp."
+        ],
+        "latitude": "25.95133",
+        "Longitute": "-80.14508"
+    },
+    {
+        "id": "the-capital-grille",
+        "name": "The Capital Grille",
+        "address": "444 Brickell Avenue, Miami, FL 33131",
+        "phone": "305-374-4500",
+        "website": "www.thecapitalgrille.com",
+        "hours": [
+            "Sunday: 4:00pm - 9:00pm", 
+            "Monday through Thursday: 11:30am - 9:00pm", 
+            "Friday: 11:30am - 10:00pm", 
+            "Saturday: 4:00pm - 10:00pm"
+        ],
+        "cocktail": "The Bohemian",
+        "entree": "Seared Citrus Glazed Salmon",
+        "notes": [
+            "Offers a 'Thanksgiving at Home' option, where customers can order a variety of holiday side dishes, including: brioche stuffing, housemade gravy, mashed potatoes, sweet potatoes with hot honey, French green beans, cranberry sauce, and seeded rolls."
+        ],
+        "latitude": "25.77016",
+        "Longitute": "-80.19032"
+    },
+    {
+        "id": "ferraros-kitchen",
+        "name": "Ferraro's Kitchen",
+        "address": "1099 NE 79th Street, Miami, FL 33138",
+        "phone": "786-534-2136",
+        "website": "www.ferraroskitchen.com",
+        "hours": [
+            "Monday: 5:00pm - 10:00pm", 
+            "Tuesday through Saturday: 12:00pm - 10:00pm", 
+            "Sunday: 12:00pm - 9:30pm"
+        ],
+        "cocktail": "Abruzzo Wine",
+        "entree": "Ravioli Aragosta e Tartufo Fresco: Ravioli stuffed with Maine lobster claw and topped with a fresh truffle butter.",
+        "notes": [
+            "Received a 'The Best Winelist in Town' award from Wine Spectator in 2021.", "Meet the Chef: Igor Ferraro. A native of Venice, Italy, inspired by Italian culture to bring the heart of Italian cuisine into his diverse menu."
+        ],
+        "latitude": "25.85213",
+        "Longitute": "-80.17445"
+    },
+    {
+        "id": "le-zoo",
+        "name": "Le Zoo",
+        "address": "9700 Collins Avenue, Miami, FL 33154",
+        "phone": "305-602-9663",
+        "website": "www.lezoorestaurant.com",
+        "hours": "11:30am - 10:00pm",
+        "cocktail": "Trans-Atlantic Old Fashioned",
+        "entree": "Filet Mignon Au Poivre",
+        "notes": [
+            "Focuses on capturing the common ground between French elegance and the effortless South Florida sophistication.", "Le Zoo is an energetic celebration of French Mediterranean cooking."
+        ],
+        "latitude": "25.88839",
+        "Longitute": "-80.12461"
+    },
+    {
+        "id": "ola-restaurant",
+        "name": "OLA Restaurant",
+        "address": "2360 Collins Avenue, Miami Beach, FL 33139",
+        "phone": "305-695-9125",
+        "website": "www.olamiami.com",
+        "hours": "11:00 am - 3:30pm; 6:00pm - 10:00pm",
+        "cocktail": "Tropical Storm",
+        "entree": "Slow Roasted Cuban Pork",
+        "notes": [
+            "Chef Carlos Castro has brought the essential flavors of Latin America to OLA Restaurant in Miami Beach.", 
+            "Caribbean flavors are featured in dishes such as the Beef Tenderloin Currasco and Florida Sweet Corn Empanda."
+        ],
+        "latitude": "25.80214",
+        "Longitute": "-80.12762"
+    },
+    {
+        "id": "santorini-by-georgios",
+        "name": "Santorini by Georgios",
+        "address": "101 Ocean Drive, Miami Beach, FL 33139",
+        "phone": "305-672-6624",
+        "website": "www.santorinibygeorgios.com",
+        "hours": "7:00am - 11:00pm",
+        "cocktail": "The Rum Runner",
+        "entree": "Lobster Poseidon",
+        "notes": [
+            "A perfect Greek feast.",
+            "A taste of Greece in the heart of South Beach"
+        ],
+        "latitude": "25.77027",
+        "Longitute": "-80.13228"
+    },
+    {
+        "id": "stubborn-seed",
+        "name": "Stubborn Seed",
+        "address": "101 Washington Avenue, Miami Beach, FL 33139",
+        "phone": "786-322-5211",
+        "website": "www.stubbornseed.com",
+        "hours": [
+            "Sunday through Thursday: 6:00pm - 10:00pm", 
+            "Friday and Saturday: 6:00pm - 11:00pm"
+        ],
+        "cocktail": ["Egyptian Sting", "Tears of my Enemies"],
+        "entree": "Truffle Chicken",
+        "notes": [
+            "Chef Ford aims to unearth cravings of the palate while constructing a reward in each bite."
+        ],
+        "latitude": "25.77026",
+        "Longitute": "-80.13492"
+    },
+    {
+        "id": "the-surf-club-restaurant",
+        "name": "The Surf Club",
+        "address": "9011 Collins Avenue, Surfside, FL 33154",
+        "phone": "305-768-9440",
+        "website": "www.surfclubrestaurant.com",
+        "hours": "6:00pm - 10:00pm",
+        "cocktail": "Volcano de mi Tierra",
+        "entree": "Prime Beef Short Rib Wellington",
+        "notes": ["An oceanfront destination bringing a new era of glamour elevated with chic Italian cuisine."],
+        "latitude": "25.87749",
+        "Longitute": "-80.12150"
+    },
+    {
+        "id": "yard-house",
+        "name": "Yard House",
+        "address": "1681 Lenox Avenue, Miami Beach, FL 33139",
+        "phone": "305-535-5660",
+        "website": "www.yardhouse.com",
+        "hours": "11:00am - 11:30pm",
+        "cocktail": "Pink Dragon Margarita",
+        "entree": "Maui Pineapple Chicken",
+        "notes": [
+            "Yard House Happy Hour is held every Monday through Friday from 3:00pm - 7:30pm and Sunday through Wednesday from 10:00 to close.", 
+            "Happy Hour specials include half-priced select appetizers and pizzas, $2 off all draft beer, wine, spirits, and cocktails.", 
+            "Yard House aims to make an enjoyable experience through great music, great seaside atmosphere, and a diverse menu stemmed from California roots."
+        ],
+        "latitude": "25.79239",
+        "Longitute": "-80.13971"
+    },
+    {
+        "id": "yardbird-table-and-bar",
+        "name": "Yardbird Table & Bar",
+        "address": "1600 Lenox Avenue, Miami Beach, FL 33139",
+        "phone": "305-538-5220",
+        "website": "www.runchickenrun.com",
+        "hours": [
+            "Monday through Saturday: 11:00am - 10:00pm", 
+            "Sunday: 10:00am - 10:00pm"
+        ],
+        "cocktail": "Hurricane",
+        "entree": "Lobster Mac & Cheese",
+        "notes": [
+            "Yardbird has locations in Miami, Las Vegas, Dallas, Washington D.C., Singapore, and Chicago.", 
+            "For $635.00, you can order a 'Thanksgiving To-Go' meal that serves 10-12 people. The holiday meal includes: a whole herb roasted turkey, mash potatoes, sage & celery stuffing, green bean casserole, bourbon brown butter glazed yams, fresh cranberry relish, and honey butter biscuits."
+        ],
+        "latitude": "25.78987",
+        "Longitute": "-80.14010"
+    }
+]
