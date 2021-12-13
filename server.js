@@ -5,7 +5,7 @@ const app = express();
 const path = require('path');
 // individual restaurant json files within api folder
 let restaurantPath = __dirname + "/api/restaurant-data/";
-const port = process.nextTick.PORT || 8000;
+const port = process.nextTick.PORT || 3000;
 
 // json restaurant names
 app.get("/api", (req, res) => {

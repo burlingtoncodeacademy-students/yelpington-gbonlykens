@@ -1,10 +1,10 @@
-import { useMap } from "react-leaflet";
+// import { useMap } from "react-leaflet";
 
-// Map zoom function after user clicks
-function MapComponent({ center, zoom}) {
-    const map = useMap();
-    map.setView(center, zoom);
-    return null;
-}
+// // Map zoom function after user clicks
+// function MapComponent({ center, zoom}) {
+//     const map = useMap();
+//     map.setView(center, zoom);
+//     return null;
+// }
 
-export default MapComponent;
+// export default MapComponent;

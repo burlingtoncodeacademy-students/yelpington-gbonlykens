@@ -1,48 +1,45 @@
-// react imports
-import React, { useEffect } from 'react';
-import {useState, useState} from 'react';
-
-// import styling
-// import "../App.css";
+// import styling 
 
 function Restaurants(props) {
-    const [info, setInfo] = useState({
-        id: '',
-        name: '',
-        address: '',
-        phone: '',
-        website: '',
-        hours: '' || [],
-        cocktail: '',
-        entree: '',
-        notes: [],
-        latitude: '',
-        longitude: '',
-    });
+    // const [info, setInfo] = useState({
+    //     id: '',
+    //     name: '',
+    //     address: '',
+    //     phone: '',
+    //     website: '',
+    //     hours: '' || [],
+    //     cocktail: '',
+    //     entree: '',
+    //     notes: [],
+    //     latitude: '',
+    //     longitude: '',
+    // });
 
-    // assign restaurant ID to variable
-    let restInfo = props.match.parama.id
+    // // assign restaurant ID to variable
+    // let restInfo = props.match.parama.id
 
-    useEffect(() => {
-        if (info.id === '' || info.id !== restInfo) {
+    // is throwing errors
+    // useEffect(() => {
+    //     if (info.id === '' || info.id !== restInfo) {
 
-            // fetch rest ID from the data in api
-            fetch(`/api/${restInfo}`)
-            .then((res) => res.json())
-            // 2nd .then is storing it
-            .then(restaurantDetails => {
-                setInfo(restaurantDetails)
-                // below sets the loca for the individual restaurant page on the map
-                props.setZoom ({
-                    zoomIn: true,
-                    zoom: 20,
-                    center: [restaurantDetails.latitude, restaurantDetails.longitude]
-                });
-            });
-        }
-    });
+    //         // fetch rest ID from the data in api
+    //         fetch(`/api/restaurant-data${restInfo}`)
+    //         .then((res) => res.json())
+    //         // 2nd .then is storing it
+    //         .then(restaurantDetails => {
+    //             setInfo(restaurantDetails)
+    //             // below sets the loca for the individual restaurant page on the map
+    //             props.setZoom ({
+    //                 zoomIn: true,
+    //                 zoom: 20,
+    //                 center: [restaurantDetails.latitude, restaurantDetails.longitude]
+    //             });
+    //         });
+    //     }
+    // });
 
     return(
+        <>
         <div id= "restaurant-info-container">
             <h2 id= "rest-directory">
                 Restaurant Information
@@ -60,7 +57,7 @@ function Restaurants(props) {
                 <h4 className= "notes">{info.notes}</h4>
             </div>
 
-            {/* section for the reviews to be added and stored */}
+            {/* form section for the reviews to be added and stored */}
             <div id = "reviews">
                 <h2>Add a Review!</h2>
                 <div id= "add-review">
@@ -84,6 +81,7 @@ function Restaurants(props) {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 
