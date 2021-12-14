@@ -15,29 +15,6 @@ function Restaurants(props) {
     //     longitude: '',
     // });
 
-    // // assign restaurant ID to variable
-    // let restInfo = props.match.parama.id
-
-    // is throwing errors
-    // useEffect(() => {
-    //     if (info.id === '' || info.id !== restInfo) {
-
-    //         // fetch rest ID from the data in api
-    //         fetch(`/api/restaurant-data${restInfo}`)
-    //         .then((res) => res.json())
-    //         // 2nd .then is storing it
-    //         .then(restaurantDetails => {
-    //             setInfo(restaurantDetails)
-    //             // below sets the loca for the individual restaurant page on the map
-    //             props.setZoom ({
-    //                 zoomIn: true,
-    //                 zoom: 20,
-    //                 center: [restaurantDetails.latitude, restaurantDetails.longitude]
-    //             });
-    //         });
-    //     }
-    // });
-
     return(
         <>
         <div id= "restaurant-info-container">
