@@ -1,37 +1,35 @@
 // import styling 
 
-function Restaurants(props) {
-    // const [info, setInfo] = useState({
-    //     id: '',
-    //     name: '',
-    //     address: '',
-    //     phone: '',
-    //     website: '',
-    //     hours: '' || [],
-    //     cocktail: '',
-    //     entree: '',
-    //     notes: [],
-    //     latitude: '',
-    //     longitude: '',
-    // });
+import Atlantikos from "./restaurants/Atlantikos";
+// component function that displays each restaurants information
+function RestInfo(props) {
+    
 
     return(
+
         <>
         <div id= "restaurant-info-container">
             <h2 id= "rest-directory">
                 Restaurant Information
             </h2>
             <div id= "rest-details">
-                <h3 className="rest-specs">{info.name}</h3>
-                <h3 className="rest-specs">{info.address}</h3>
-                <h3 className="rest-specs">{info.phone}</h3>
-                <h3 className="rest-specs">{info.website}</h3>
-                <h3 className="rest-specs">{info.hours}</h3>
-                <h3 className="rest-specs">{info.cocktail}</h3>
-                <h3 className="rest-specs">{info.entree}</h3>
+                <h3 className="rest-specs">Name: {props.restName}</h3>
+
+                <h3 className="rest-specs">Address: {props.infoAddress}</h3>
+
+                <h3 className="rest-specs">Phone: {props.InfoPhone}</h3>
+
+                <h3 className="rest-specs">Website: {props.infoWebsite}</h3>
+
+                <h3 className="rest-specs">Hours: {props.infoHours}</h3>
+
+                <h3 className="rest-specs">House Cocktail: {props.infoCocktail}</h3>
+
+                <h3 className="rest-specs">House Entree: {props.infoEntree}</h3>
+
                 <br />
                 <h4>Additional Notes:</h4>
-                <h4 className= "notes">{info.notes}</h4>
+                <h4 className= "notes">Notes: {props.infoNotes}</h4>
             </div>
 
             {/* form section for the reviews to be added and stored */}
@@ -42,7 +40,7 @@ function Restaurants(props) {
                    <form
                    id = "post-review"
                    method = "POST"
-                   action = {`/note/${restInfo}`}>
+                   action = {`/note/${RestInfo}`}>
 
                        <textarea
                        id= "textarea"
@@ -62,5 +60,5 @@ function Restaurants(props) {
     )
 }
 
-export default Restaurants;
+export default RestInfo;
 

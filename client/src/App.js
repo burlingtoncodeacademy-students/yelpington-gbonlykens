@@ -8,7 +8,7 @@ import './App.css';
 
 // component imports
 import Home from "./components/Home.js";
-import Restaurants from "./components/restaurants.js";
+import Restaurants from "./components/RestInfo.js";
 import Map from './components/Map';
 
 
