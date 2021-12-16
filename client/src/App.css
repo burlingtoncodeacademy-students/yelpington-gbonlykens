@@ -1,38 +1,88 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  /* FONTS */
+  --ff-primary: "Raleway", sans-serif;
+  --ff-secondary: "Bakbak One", sans-serif;
+
+  --fw-bold: 900;
 }
 
-@media (max-width: 960px) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* ----------- General -------------- */
+body {
+  background-color: #55BCC9;
+}
+/* ----------- Header -------------- */
+#header {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  font-size: 70px;
+  letter-spacing: 4px;
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-secondary);
+  color: white;
+  background-color: #F08080;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* ----------- Navbar css -------------- */
+#navbar-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.navbar-title{
+  font-size: 14px;
+}
+
+h3 {
+  justify-content: space-evenly;
+  font-size: 14px;
+  color: white;
+  margin-top: 0px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  font-family: var(--ff-primary);
+}
+
+h3:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  font-weight: var(--fw-bold);
+  border-radius: 20px;
+  padding: 4px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+/* ----------- Map css -------------- */
+#main-container{
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#map-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ----------- Restaurant info css -------------- */
+li{
+ display: flex;
+ flex-direction: column;
+ width: 45vw;
+ padding: 10px;
+ background-color: lightseagreen;
+ border-color: black 3px;
+ color: black;
 }

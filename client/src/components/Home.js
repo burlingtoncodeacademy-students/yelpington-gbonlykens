@@ -1,58 +1,27 @@
-// react imports
-import { useState } from "react";
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
+import '../App.css';
+import Map from './Map.js';
+// importing useState Hook from React
+import {useState} from 'react';
 
+//component imports
+import Header from './Header';
+import Navbar from './Navbar';
+
+// function for home page component
 function Home(props) {
-    // state set up to store restaurant names
-    const [name, setName] = useState([])
-
-    // useEffect hook to list rest names on Home page
-    useEffect(() => {
-        if (name.length === 0) {
-            //info fetched from api
-            fetch("/api")
-            .then((res) => res.json())
-            // store it in a variable
-            .then(name => {
-                setName(name)
-                props.setZoom({zoomIn: false, zoom: 15, center:[25.76232, -80.19582]})
-            })
-        }
-    })
-
-    // restaurant id's to be capitalized
-    function capitalizeRest(str) {
-        // name strings are split, all the "-"" then joined again
-        let strArray = str.split(" ");
-        let wordLength = 0;
-        while (wordLength < strArray.length) {
-            strArray[wordLength] = strArray[wordLength][0].toUpperCase() +
-            strArray[wordLength].slice(1).toLowerCase();
-            wordLength++;
-        }
-        return strArray.join(" ");
-    }
-
+    const [center, setCenter] = useState([25.76342, -80.20775]);
+    const [zoom, setZoom] = useState(13);
+// rendering the Header, Navbar, and Map components into Home Page
     return(
-        <div>
-            <h2 id = "directory">Downtown Miami Restaurants</h2>
-            <div id = "navbar">
-                <ul>
-                    {name.map((rest, index) => {
-                        return (<h3 key ={index}>
-                            <li>
-                                <Link className="restaurant-link" to={`/restaurant/${rest}`}>
-                                    {capitalizeRest(rest.replaceAll('-', ''))}
-                                </Link>
-                                </li>
-                                </h3>
-                            )
-                    })}
-                </ul>
-            </div>
+        <div id="main-container">
+            <Header />
+            <Navbar />
+            <Map
+            center={center}
+            zoom={zoom} />
         </div>
-    )
+
+    );
 }
 
 export default Home;

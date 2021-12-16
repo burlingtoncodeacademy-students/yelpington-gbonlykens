@@ -1,46 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// import './app.css'
+
 //component for all individual restaurant links
-function Navbar(props) {
+function Navbar() {
   return (
     <>
        <div id="navbar-container">
-        <h1 className="sidebar-header">Downtown Miami Restaurants</h1>
+       
 
         {/* Individual restaurant links in the navbar */}
         <Link className="link" to="/restaurant/atlantikos">
-          Atlantikos
+          <h3>Atlantikos</h3>
         </Link>
+        &nbsp;
         <Link className="link" to="/restaurant/bonefish-grill">
-          Bonefish Grill
+          <h3>Bonefish Grill</h3>
         </Link>
         <Link className="link" to="/restaurant/capital-grille">
-          Capital Grille
+          <h3>Capital Grille</h3>
         </Link>
-        <Link className="link" to="/restaurant/ferreros-kitchen">
-          Ferraro's Kitchen
+        <Link className="link" to="/restaurant/ferraros-kitchen">
+          <h3>Ferraro's Kitchen</h3>
         </Link>
         <Link className="link" to="/restaurant/le-zoo">
-          Le Zoo
+         <h3> Le Zoo</h3>
         </Link>
         <Link className="link" to="/restaurant/ola-restaurant">
-          OLA Restaurant
+          <h3>OLA Restaurant</h3>
         </Link>
         <Link className="link" to="/restaurant/santorini-by-georgios">
-          Santorini by Georgio's
+          <h3>Santorini by Georgio's</h3>
         </Link>
         <Link className="link" to="/restaurant/stubborn-seed">
-          Stubborn Seed
+          <h3>Stubborn Seed</h3>
         </Link>
         <Link className="link" to="/restaurant/surf-club">
-          The Surf Club Restaurant
+          <h3>The Surf Club Restaurant</h3>
         </Link>
         <Link className="link" to="/restaurant/yard-house">
-          Yard House
+          <h3>Yard House</h3>
         </Link>
         <Link className="link" to="/restaurant/yard-bird">
-          Yard Bird 
+          <h3>Yard Bird </h3>
         </Link>
       </div>
            

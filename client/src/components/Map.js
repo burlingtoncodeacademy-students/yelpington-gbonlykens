@@ -9,6 +9,7 @@ import { MapContainer, TileLayer, Marker, Popup} from "react-leaflet";
 
 
 function Map(props) {
+    const downtownMiami = [25.84771, -80.15662];
     const atlantikosLocation = [25.88901, -80.12287];
     const bonefishLocation = [25.95133, -80.14508];
     const capitalGrilleLocation = [25.77016, -80.19032];
@@ -25,8 +26,8 @@ function Map(props) {
         // Leaflet map and tilelayer 
         <MapContainer
         id="map-container"
-        center={props.center}
-        zoom={13}
+        center={downtownMiami}
+        zoom={11}
         style={{height: "600px", width: "600px"}}
         >
             <TileLayer
@@ -34,7 +35,9 @@ function Map(props) {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             {/* Each individual restaurant and its map marker  */}
-            <Marker position={props.center}>
+            <Marker
+            position={downtownMiami}>
+            
                 <Popup>Downtown Miami Restaurants</Popup>
             </Marker>
             <Marker position={atlantikosLocation}>
