@@ -9,6 +9,7 @@ function Header() {
                 <h1 id="header">
                     Y E L P I N G T O N
                     </h1>
+                    <h2>Downtown Miami Restaurants</h2>
             </Link>
         </div>
     );

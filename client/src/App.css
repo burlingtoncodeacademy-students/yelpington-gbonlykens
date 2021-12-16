@@ -27,6 +27,17 @@ body {
   background-color: #F08080;
 }
 
+h2{
+  display: flex;
+  justify-content: center;
+  margin-top: 28px;
+  font-family: var(--ff-primary);
+  font-size: 35px;
+  letter-spacing: 2.5px;
+  color: black;
+  font-weight: var(--fw-bold);
+}
+
 /* ----------- Navbar css -------------- */
 #navbar-container {
   display: flex;
@@ -55,7 +66,7 @@ h3:hover {
   background-color: black;
   font-weight: var(--fw-bold);
   border-radius: 20px;
-  padding: 4px;
+  padding: 5px;
 }
 
 .link{
@@ -74,6 +85,8 @@ h3:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 100px;
+  margin-bottom: 25px;
 }
 
 /* ----------- Restaurant info css -------------- */
@@ -81,8 +94,10 @@ li{
  display: flex;
  flex-direction: column;
  width: 45vw;
- padding: 10px;
+ padding: 12px;
+ letter-spacing: 0.7px;
  background-color: lightseagreen;
+ box-sizing: border-box;
  border-color: black 3px;
  color: black;
 }
