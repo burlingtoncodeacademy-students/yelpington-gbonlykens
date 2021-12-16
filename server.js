@@ -28,7 +28,7 @@ app.listen(port, () => {
 });
 
 
-// ---------- Adding Comments / Restaurant Reviews ---------- //
+// ---------- Adding Restaurant Reviews ---------- //
 
 // app.post('/note/:restaurant',
 // // acts as middleware for the server before it takes the form

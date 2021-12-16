@@ -71,6 +71,22 @@ function Atlantikos(props) {
             <li>Notes: {notes}</li>
           </ul>
         </div>
+      </div>
+
+      {/*Comments to be added*/}
+      <div id="comments">
+        <h3>What Do You Think?:</h3>
+        <div id="review">
+          {/*the comment form*/}
+          <form id="post-review" method="POST" action={`/note/${Comment}`}>
+            <textarea
+              id="textarea"
+              name="body"
+              placeholder="Add a Comment"
+            ></textarea>
+            <input id="submit" type="submit" name="comment" />
+          </form>
+        </div>
 
         <Link to="/">Return to Home Page</Link>
       </div>
